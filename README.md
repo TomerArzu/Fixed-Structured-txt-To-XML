@@ -16,7 +16,7 @@ All the data in the manual followed by pictures and explanations.
 
 ## How I Did It?
   
-  1. The input txt file go through IODataManager class, in the class I used the function <b>public ArrayList<String> ReadLines()<b>
+  1. The input txt file go through IODataManager class, in the class I used the function public ArrayList<String> ReadLines()
   that parses the file and delimite unnecessary data that the txt file include like the titles. the function return ArrayList<string> that conatin all the importent lines in the text (such as user data and his transactions)
   
   2. Createing two entities: Client and Transaction.
