@@ -4,7 +4,7 @@ This project done as an job interview assignment.
 
 Text To XML (TTX) Converter is a software that receive as an input text file (.txt), which is contain a data about bank customer details and his transactions, and create an XML file, by no more than few clicks.
 
-Learning to use the software is very easy. We assume that you familiar with XML files and working with them. Anther assumption is that the input file, the data to feed the application, is on-hand and ready to conversion by the rules we will introduce later on the user manual.
+Learning to use the software is very easy. We assume that you familiar with XML files and working with them. Anther assumption is that the input file, the data to feed the application, is on-hand and ready to conversion by the rules we will introduce later on the user manual
 
 As part of the assignment I required to do a user manual, you can download it also. In the user Manual you will find:
   - General info about the sofware.
