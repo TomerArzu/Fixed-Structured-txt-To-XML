@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<ClientInfo>
+	<PersonalDetails>
+		<FirstName>ted</FirstName>
+		<LastName>mosby</LastName>
+		<ID>987654321</ID>
+	</PersonalDetails>
+	<Transactions>
+		<Transaction>
+			<ID>7788</ID>
+			<Type>salary deposit</Type>
+			<amount>10000</amount>
+			<currency>NIS</currency>
+			<Balance>+11200</Balance>
+		</Transaction>
+		<Transaction>
+			<ID>9934</ID>
+			<Type>withdraw</Type>
+			<amount>13200</amount>
+			<currency>NIS</currency>
+			<Balance>-2000 NIS</Balance>
+		</Transaction>
+	</Transactions>
+</ClientInfo>
+

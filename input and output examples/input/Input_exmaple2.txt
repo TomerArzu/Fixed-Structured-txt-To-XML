@@ -1,0 +1,7 @@
+Client Details:
+first Name: ted, Last name: mosby, ID: 987654321
+
+Transactions:
+
+ID: 7788, Type: salary deposit, Amount: 10000, Currency: NIS, Balance: +11200 NIS
+ID: 9934, Type: withdraw, Amount: 13200, Currency: NIS, Balance: -2000 NIS

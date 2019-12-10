@@ -1,0 +1,5 @@
+First Name: john lennon , Last name: doe be, ID: 123456789
+ID: 1234, Type: withdraw, Amount: 100, Currency: NIS, Balance: +1200 NIS
+ID: 3333, Type: credit card, Amount: 450, Currency: NIS, Balance: +750 NIS
+ID: 1212, Type: salary deposit, Amount: 5000, Currency: NIS, Balance: +5750 NIS
+ID: 5544, Type: withdraw, Amount: 300, Currency: NIS, Balance: +5450 NIS

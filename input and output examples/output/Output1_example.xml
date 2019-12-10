@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<ClientInfo>
+	<PersonalDetails>
+		<FirstName>john</FirstName>
+		<LastName>Doe</LastName>
+		<ID>123456789</ID>
+	</PersonalDetails>
+	<Transactions>
+		<Transaction>
+			<ID>1234</ID>
+			<Type>withdraw</Type>
+			<amount>100</amount>
+			<currency>NIS</currency>
+			<Balance>+1200 NIS</Balance>
+		</Transaction>
+		<Transaction>
+			<ID>3333</ID>
+			<Type>credit card</Type>
+			<amount>450</amount>
+			<currency>NIS</currency>
+			<Balance>+750 NIS</Balance>
+		</Transaction>
+		<Transaction>
+			<ID>1212</ID>
+			<Type>salary deposit</Type>
+			<amount>5000</amount>
+			<currency>NIS</currency>
+			<Balance>+5750 NIS</Balance>
+		</Transaction>
+		<Transaction>
+			<ID>5544</ID>
+			<Type>credit card</Type>
+			<amount>300</amount>
+			<currency>NIS</currency>
+			<Balance>+5450 NIS</Balance>
+		</Transaction>
+	</Transactions>
+</ClientInfo>
+
