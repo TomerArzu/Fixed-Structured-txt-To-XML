@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="495.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppController">
+   <children>
+      <Label id="title" layoutX="36.0" layoutY="97.0" text="Text To XML Converter" textFill="#c61b1b">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button id="upldBtn1" fx:id="upldBtn" layoutX="157.0" layoutY="215.0" mnemonicParsing="false" onAction="#uploadFile" text="Upload Text File" />
+      <Button id="Start" fx:id="cnvrtBtn" layoutX="180.0" layoutY="329.0" mnemonicParsing="false" onAction="#ConvertToXML" text="Convert" />
+      <Label layoutX="308.0" layoutY="464.0" text="Ⓒ Tomer Arzuan" />
+      <TextField fx:id="pathviewtxtfld" editable="false" layoutX="47.0" layoutY="268.0" prefHeight="25.0" prefWidth="323.0" />
+   </children>
+</AnchorPane>
