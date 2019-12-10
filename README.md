@@ -21,7 +21,7 @@ All the data in the manual followed by pictures and explanations.
   
   2. Createing two entities: Client and Transaction.
   The Transaction - consist of and id, type, amount, currency, balance, balanceCurrency. Where amount is the current amount action with it's currency and balance is the total balance with it's currency.
-  The Client- consist of firstName, LastName, id, <b>ArrayList<Transaction> clientTrans<b/>, <b>SortedMap<String, Double> clientBalance<b/>.
+  The Client- consist of firstName, LastName, id, ArrayList<Transaction> clientTrans, SortedMap<String, Double> clientBalance .
   - clientTrans - holds all the clients transaction
   - clientBalance - holds the balance for each currency. For example: {"USD" : 1200, "INS" : 500}
   
