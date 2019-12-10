@@ -25,7 +25,7 @@ All the data in the manual followed by pictures and explanations.
   - clientTrans - holds all the clients transaction
   - clientBalance - holds the balance for each currency. For example: {"USD" : 1200, "INS" : 500}
   
-  3. Creating an temporary XML file <b>without<b/> tab indentation between the XML nodes.
+  3. Creating an temporary XML file without tab indentation between the XML nodes.
   
   4. extends SAX DefaultHandler - SAX DefaultHandler reads the XML file and each time it meets event the callback done.
   For Example: when its read the XML we meet open element like: <element> and it call the function public void startElement(String uri, String localName, String qualifiedName,Attributes attributes) that any one can implement differently.
