@@ -16,18 +16,18 @@ All the data in the manual followed by pictures and explanations.
 
 ## How I Did It?
   
-  1. The input txt file go through IODataManager class, in the class I used the function public ArrayList<String> ReadLines()
-  that parses the file and delimite unnecessary data that the txt file include like the titles. the function return ArrayList<string> that conatin all the importent lines in the text (such as user data and his transactions)
+  **1.** The input txt file go through IODataManager class, in the class I used the function public ArrayList<String> ReadLines()
+  that parses the file and delimite unnecessary data that the txt file include like the titles. the function return ArrayList<string> that conatin all the important lines in the text (such as user data and his transactions)
   
-  2. Createing two entities: Client and Transaction.
-  The Transaction - consist of and id, type, amount, currency, balance, balanceCurrency. Where amount is the current amount action with it's currency and balance is the total balance with it's currency.
-  The Client- consist of firstName, LastName, id, ArrayList<Transaction> clientTrans, SortedMap<String, Double> clientBalance .
+  **2.** Createing two entities: Client and Transaction.
+  ***The Transaction*** - consist of and id, type, amount, currency, balance, balanceCurrency. Where amount is the current amount action with it's currency and balance is the total balance with it's currency.
+  ***The Client***- consist of firstName, LastName, id, ArrayList<Transaction> clientTrans, SortedMap<String, Double> clientBalance .
   - clientTrans - holds all the clients transaction
   - clientBalance - holds the balance for each currency. For example: {"USD" : 1200, "INS" : 500}
   
-  3. Creating an temporary XML file without tab indentation between the XML nodes.
+  **3.** Creating an temporary XML file without tab indentation between the XML nodes.
   
-  4. extends SAX DefaultHandler - SAX DefaultHandler reads the XML file and each time it meets event the callback done.
+  **4.** extends SAX DefaultHandler - SAX DefaultHandler reads the XML file and each time it meets event the callback done.
   For Example: when its read the XML we meet open element like: <element> and it call the function public void startElement(String uri, String localName, String qualifiedName,Attributes attributes) that any one can implement differently.
   In my implementation I've read all the XML file and each new like correspont to the child node indent I've added \\t* [tab] intentation.
   
